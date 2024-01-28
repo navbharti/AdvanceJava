@@ -26,7 +26,7 @@
 1. ### JVM Architecture : class loading of system, Linking ||verfi|| prepare||resolve, how class loader works, nead of customized classloader, heap area || method area, stack memory, jvm execution engine,  complete jvm architecture.
 
 1. ### String, BufferedString, StringBuilder
-/Volumes/BACKUP2/JAIN-UNIVERSITY/2022-Even Semester/Deep Learning/AdvanceJava/README.md
+
 ## Database Pre-Requisite
 1. ### Introduction to Oracle
 
@@ -74,5 +74,3 @@
 1. ### Hibernate
 
 1. ### Spring
-
-## Projects and Lab Experiments
