@@ -2,6 +2,7 @@ package nav.bharti;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -18,6 +19,7 @@ public class App
     	String pwd = "navbharti";
     	
         System.out.println( "Hello World!" );
+        //1.
         Class.forName("com.mysql.cj.jdbc.Driver");
         
         //2.
@@ -25,13 +27,18 @@ public class App
         
         //3. 
         //String query = "Create Table amity_students(id int, name varchar(50), address varchar(50))";
-        String query = "drop table amity_students";
-        
+       // String query = "drop table amity_students";
+        String query = "select * from students"; 
         Statement st = con.createStatement();
         
         //4
-        int rows = st.executeUpdate(query);
+        //int rows = st.executeUpdate(query);
+        ResultSet rs = st.executeQuery(query);
         
-        System.out.println(rows + " Table deleted Successfully!!!");
+        while(rs.next()) {
+        	System.out.println(rs.getInt(1)+ "   "+rs.getString(2)+ "   "+ rs.getInt(3)+ "    "+rs.getDouble(4)+"    "+rs.getString(5));
+        }
+        
+        //System.out.println(rows + " Table deleted Successfully!!!");
     }
 }

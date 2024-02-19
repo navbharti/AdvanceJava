@@ -1,4 +1,4 @@
-package nav.bharti.mavenWelcome;
+package nav.bharti;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
