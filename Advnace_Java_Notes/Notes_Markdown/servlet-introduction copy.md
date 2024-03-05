@@ -175,3 +175,18 @@ public class FirstServlet implements Servlet{
 |:--:|
 |Servlet Life Cycle Methods|
 
+
+Creating First Servlet Program
+1. Create  Maven Project or Dyanamic Web Project in Eclipse
+2. Configure Server Runtime environment library of Tomcat servler in newly created project.
+3. Create Servlet Class by implementing `Servlet` Interface in `javax.servlet` package.
+4. Implement all Unimplemeted methods in user defined Servlet Class.
+5. Configure URL pattern mapping tags in `web.xml`.
+6. Run the project using "Run on Server" option.
+
+
+https://drive.google.com/uc?export=view&id=1Xk5wgJlBwXEwM5YSgfK74cVX35sDwyo3
+
+|![Servlet Lifer Cycle](https://drive.google.com/uc?export=view&id=1Xk5wgJlBwXEwM5YSgfK74cVX35sDwyo3)|
+|:--:|
+|Servlet Life Cycle Methods|
