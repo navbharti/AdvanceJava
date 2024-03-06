@@ -35,6 +35,8 @@ public class App
         	tx = session.beginTransaction();
         	session.save(faculty);
         	session.save(dept);
+        	
+        	
         	tx.commit();
         	session.close();
         }catch (Exception e) {
